@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* LEFT SECTION */
+.left {
+    width: 30%;
+    background: #e2c9b5;
+    padding: 30px;
+}
+.profile-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+.left h2 {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.contact p {
+    margin: 8px 0;
+}
+
+/* RIGHT SECTION */
+.right {
+    width: 70%;
+    background: white;
+    padding: 40px;
+}
+
+.name {
+    font-size: 48px;
+    line-height: 1.1;
+}
+
+.lastname {
+    font-weight: bold;
+}
+
+.title {
+    margin-top: -10px;
+    font-size: 22px;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+h3 {
+    margin-top: 25px;
+    font-size: 22px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.company {
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
