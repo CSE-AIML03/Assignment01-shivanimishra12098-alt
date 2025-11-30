@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Cards</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #c94b55; 
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 40px;
+    }
+
+    .card {
+        width: 260px;
+        background: white;
+        border-radius: 20px;
+        padding: 25px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .pink {
+        background: #f5a9b8;
+    }
+
+    .card img {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .text {
+        font-size: 14px;
+        color: #444;
+        margin: 10px 0;
+    }
+
+    .icons {
+        margin-top: 12px;
+    }
+
+    .icons i {
+        display: inline-block;
+        font-size: 14px;
+        padding: 8px 10px;
+        border-radius: 5px;
+        background: #fff;
+        border: 1px solid #000;
+        margin-right: 6px;
+    }
+</style>
+
+</head>
+<body>
+
+    <div class="card">
+        <img src="profile2.jpg" alt="Profile Photo">
+        <div class="title">Web Developer</div>
+        <div class="text">
+            UI/UX designer
+        </div>
+
+        <div class="icons">
+            <i>X</i>
+            <i>in</i>
+            <i>Be</i>
+        </div>
+    </div>
+
+    <div class="card pink">
+        <img src="profile photo.jpg" alt="Profile Photo">
+        <div class="title">Web Developer</div>
+        <div class="text">
+           ✨specialized in artificial intelligence
+            and machine learning
+        </div>
+
+        <div class="icons">
+            <i>X</i>
+            <i>in</i>
+            <i>Be</i>
+        </div>
+    </div>
+
+</body>
+</html>
