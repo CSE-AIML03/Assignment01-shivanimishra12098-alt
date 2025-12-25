@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Zomato Collections</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f8f8f8;
+    }
+
+   
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 15px 40px;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 20px 10px 15px 100px;
+    }
+
+    .search-bar {
+        
+        width: 1000px;
+        display: flex;
+        background: #f1f1f1;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: #f8f8f8;
+        margin-right:100px ;
+    }
+
+    .search-bar input {
+        border: none;
+        background: #f5f5f5;
+        width: 35%;
+        padding: 10px;
+        font-size: 20px;
+       
+    }
+     .catagory {
+        display: flex;
+        gap: 40px;
+        padding: 20px 40px;
+        background: white;
+        box-sizing: 50px;
+     }
+     .catagory{
+      font-size: 18px;
+      color: grey;
+      cursor: pointer;
+      justify-content: center;
+      margin-right: 40px;
+      
+     }
+    .active{
+      color: #e23744;
+        border-bottom: 3px solid #e23744 ;
+        padding-bottom: 10px;
+        position: inherit;
+        
+    }
+     .container {
+        padding: 30px 40px;
+        
+    }
+
+    .container h2 {
+        margin-bottom: 5px;
+        position: relative;
+        left: 15%;
+        
+    }
+
+    .container p {
+        color: gray;
+        margin-bottom: 20px;
+        position: relative;
+        left: 15%;
+        
+    }
+    .seemore{
+       font-weight: 200;
+       color: rgb(255,126,139);
+       font-size: 1.3rem;
+       padding: 1rem;
+       position: relative;
+       left: 70%;
+       bottom: 30px;
+    }
+
+    .cards {
+      width: 100%;
+      height:400px ;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .card {
+        width: 320px;
+        height: 390px;
+        border-radius: 15px;
+        justify-content: center;
+    }
+ .search-bar span{
+    margin-top: 15px;
+    position: relative;
+    right: 90px;
+    
+ }
+    .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    
+.card h3{
+    position: relative;
+    bottom: 120px;
+    color:white;
+    font-weight: 20px;
+    font-size: 30px;
+}
+    .card span{
+    position: relative;
+    bottom: 150px;
+    color:white;
+    font-weight: 10px;
+    font-size: 25px;
+    }
+    .images{
+        position: relative;
+        left: 14%;
+    }
+    .smallboxes{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        bottom: 20px;
+        left: 250px;
+        
+    }
+    .box{
+        border:2px solid rgb(192, 182, 182);
+        font-size: 20px;
+        border-radius: 8px;
+        color: rgb(186, 178, 178);
+        padding: 10px;
+        margin: 15px;
+    }
+    .catagory span{
+      border:2px solid white;
+      background-color:rgb(226, 249, 253) ;
+      border-radius: 50%;
+      font-size: 30px;
+      width: 70px;
+      height: 70px;
+      text-align: center;
+      align-content: center;
+      position: relative;
+      bottom: 20px;
+     
+    }
+.fa-solid {
+    
+    font-size: 30px;
+}
+    
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo"><i><b>Zomato</b></i></div>
+    <div class="search-bar">
+   <i class="fa-solid fa-location-dot"style="color: Tomato;" style="font-size: larger;"></i><input type="text" placeholder="Ywca,Ashoka rd,hanuman"><span>&#9660;</span></input>
+    <input type="text" placeholder="|Search for restaurant, cuisine or a dish">
+    </div>" 
+    <div class="other">Log in        Sign up</div>
+</div>
+
+
+<div class="catagory">
+    <div class="catagory active"><span>🍽️</span>Dining out</div>
+    <div class="catagory"><span>🛵</span>Delivery</div>
+    <div class="catagory"><span>🍷</span>Nightlife</div>
+</div>
+
+
+<div class="container">
+    <h2 class="heading">Collections</h2>
+    <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR</p>
+    <a class="seemore" href="/">
+        All collections in Delhi NCR &#9658;
+    </a>
+
+    <div class="cards">
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.aQdKde-8YTd8f4Vwekz6SAHaFO?w=266&h=188&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+           
+                <h3>Insta-worthy spots</h3>
+                <span>43 Places</span>
+           
+        </div>
+
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.DMd2cJmpXTfyJsde8XXmHwHaFO?w=216&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+           
+                <h3>Top trending spots</h3>
+                <span>28 Places</span>
+    
+        </div>
+
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.847HL_l_fcpL85EFFJLziQHaFO?w=250&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+           
+                <h3>New in town</h3>
+                <span>11 Places</span>
+          
+        </div>
+
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.dFQrbdfgYNwbp7gfTgW18wHaHa?w=165&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.3&pid=1.7&rm=3&ucfimg=1">
+            
+                <h3>Omakase bars</h3>
+                <span>7 Places</span>
+            </div>
+            </div>
+            <br><br>
+
+</div>
+            <div class="smallboxes">
+                <div class="box">Filters</div>
+                <div class="box">Offers</div>
+                <div class="box">Rating:4.5+</div>
+                <div class="box">Pet friendly</div>
+                <div class="box">Outdoor seating</div>
+                <div class="box">Server Alcohol</div>
+                <div class="box">Open now</div>
+            </div>
+            <br><br>
+     <div class="images"><img src="https://b.zmtcdn.com/data/o2_assets/e067a1cf0d3fe27b366402b98b994e9f1716296909.png" width="73%" height="300px"></div>
+            
+    
+
+
+</body>
+</html>
